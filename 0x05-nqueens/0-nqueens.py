@@ -76,7 +76,7 @@ if __name__ == '__main__':
             while r >= 0:
                 c = placed_queens[r][1] + 1
                 del placed_queens[r]  # delete previous queen coordinates
-                if c < n:
+                if c < m:
                     break
                 r -= 1
             if r < 0:
